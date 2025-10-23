@@ -34,6 +34,31 @@ console.log("hello world");
  
 console.log( typeof big);
 
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
+// two types of memories 
+
+// 1 stack memory (primitive)
+// 2 heap memory (non primitive)
+
+let myconsolename = "negative"
+
+let anothername = myconsolename
+ anothername = "whatever"
+
+console.log( anothername );
+console.log( myconsolename );
+
+let userone = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let usertwo = userone
+
+usertwo.email = "nikhil@google.com"
+
+console.log( userone.email);
+console.log( usertwo.email);
 
