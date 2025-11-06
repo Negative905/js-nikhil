@@ -1,0 +1,39 @@
+
+// Array
+
+const myarr = [0, 1, 2, 3, 4, 5]
+const mylogos = [ "bmw", "audi" ]
+
+const myarr2 = new Array ( 1, 2, 3, 4 )
+// console.log(myarr[1]);
+
+// Array methods
+
+myarr.push (6)
+myarr.pop ()
+// myarr.unshift(8)
+myarr.shift()
+
+// console.log(myarr.includes(8));
+// console.log(myarr.indexOf(4));
+
+const newarr = myarr.join()
+
+// console.log(myarr);
+// console.log(typeof newarr);
+
+// Slice and Splice
+
+console.log("A ", myarr);
+
+const myn1 = myarr.slice (1, 3)
+
+console.log(myn1);
+console.log("B ", myarr);
+
+const myn2 = myarr.splice(1, 3)
+console.log("C ", myarr);
+console.log(myn2);
+
+
+
