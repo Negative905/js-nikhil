@@ -9,8 +9,3 @@ function sayMyName(){
     console.log("L");
 }
 
-// sayMyName()
-
-function addtwonumbers(){
-    
-}
