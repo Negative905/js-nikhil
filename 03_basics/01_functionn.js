@@ -31,5 +31,29 @@ function addTwonumbers(number1, number2){
         return `${username} just logged in`
     }
 
-    //  console.log(loginUserMessage("Negative"))
-     console.log(loginUserMessage("negative"))
+     console.log(loginUserMessage("Negative"))
+    //  console.log(loginUserMessage("negative"))
+
+     const user = {
+        username: "negative",
+        price: 199
+     }
+
+     function handleobject(anyobject){
+        console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+         }
+
+        //  handleobject(user)
+         handleobject ({
+            username: "nick",
+            price: 399
+         })
+
+         const myNewarray = [200, 400, 100, 600]
+         function returnSecondvalue (getArray){
+            return getArray[1]
+         }
+
+         console.log(returnSecondvalue(myNewarray));
+         
+         
